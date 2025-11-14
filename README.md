@@ -1,1 +1,1 @@
-jupyter notebooks and yml conda env files to analyse the human development face spatial data.
+jupyter notebooks and yml conda env files to analyse the human development face data.
