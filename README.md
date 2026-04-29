@@ -1,3 +1,3 @@
 jupyter notebooks and yml conda env files to analyse the embryonic human face data.
 
-#Face atlas paper
+# Face atlas paper
