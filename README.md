@@ -7,7 +7,9 @@ Code related to Cell types, positional codes, and enhancers contributing to huma
 ## Find the data
 
 Explore the dataset interactively or download the H5 object directly using our CELLXGENE: https://adameykolab.hifo.meduniwien.ac.at/cellxgene_public/ 
+
 Count matrix data has been submitted to Dryad, and is accessible via this link: https://doi.org/10.5061/dryad.7m0cfxq8t 
+
 FASTQ files have been deposited to the Karolinska Institute Data Repository via the DORIS system from the Swedish National Data Service (SND): https://doi.org/10.48723/pq77-v833b 
 
 
