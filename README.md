@@ -1,5 +1,5 @@
 
-# Face atlas paper
+# Human embryonic face atlas 
 
 Code related to Cell types, positional codes, and enhancers contributing to human facial individuality and pathology (Alek Erickson, Yakov Gerstein, and Rozalina Galimullina et al. 2026). This repository contains supporting code, Jupyter notebooks, and yml/conda/env files to analyse the embryonic human face data.
 
