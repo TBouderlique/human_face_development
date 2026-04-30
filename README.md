@@ -16,16 +16,48 @@ FASTQ files have been deposited to the Karolinska Institute Data Repository via 
 
 ## Description of values in the cell-metadata in the H5 file
  
-- Annotation_Coarse: Primary clusters derived from leiden clustering at resolution = 1
-- Annotation_Specific: Primary clusters derived from leiden clustering at resolution = 2
-- Donor: Donor IDs
-- Doublet Score: Output from SCrublet
-- Embedding: 2D embedding as used in the paper
+### obs (cell metadata):
+- n_genes / n_genes_by_counts: number of detected genes per cell
+- total_counts: total UMI counts per cell
+- total_counts_mt / pct_counts_mt: mitochondrial counts and percentage (QC metric)
+- doublet_score / predicted_doublet: doublet detection results
+- Sample: description of the age and region of the sample
+- batch: sample-level flag used to integrate gene lists across sample batches
 - Age: Age of the donor
-- Region: anatomical Origin of the tissue sample for each cell
+- Origin: anatomical region of the tissue sample for each cell
+- S_score / G2M_score / phase: cell cycle scoring and assigned phase
+- leiden: cluster ID from Leiden clustering
+- coarse_annotation / general_annotation / specific_annotation: hierarchical cell type labels
+
+### var (gene metadata):
+- n_cells: number of cells expressing each gene
+- highly_variable: whether gene is selected as HVG
+- means / dispersions / dispersions_norm: stats used for HVG selection
+
+### uns (unstructured):
+- annotation_colors / leiden_colors: color mappings
+- hvg: parameters/results of HVG selection
+- log1p: log-normalization info
+- neighbors: kNN graph parameters
+- pca / umap: embedding settings
+
+### obsm (multi-dimensional embeddings):
+- X_pca: PCA coordinates
+- X_umap: UMAP coordinates
+
+### obsp (pairwise matrices):
+- connectivities: kNN graph (weighted adjacency)
+- distances: pairwise neighbor distances
 
 
 
 ## Code 
 Code for making many of the figures is available as Jupyter notebooks.
 The package versions used to generate these figures are in this environment file
+
+
+
+
+
+
+
