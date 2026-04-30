@@ -52,7 +52,7 @@ FASTQ files have been deposited to the Karolinska Institute Data Repository via 
 
 
 ## Code 
-Code for making many of the figures is available as Jupyter notebooks.
+Code for analyzing the data is available as Jupyter notebooks.
 
 ### HiC_analysis
 Notebooks used for calling TADs and classifying links according to HiC data
