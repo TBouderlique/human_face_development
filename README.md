@@ -55,9 +55,18 @@ FASTQ files have been deposited to the Karolinska Institute Data Repository via 
 Code for making many of the figures is available as Jupyter notebooks.
 The package versions used to generate these figures are in this environment file
 
-
-
-
+### HiC_analysis
+Notebooks used for calling TADs and classifying links according to HiC data
+### RNA
+Notebooks used for QC and processing of each scRNAseq sample, as well as trajectory analysis.
+### multiome
+Notebooks used for analysis of multiome data including links, DARs, and motif analysis.
+### plots
+Notebooks used to plot GWAS enrichment heatmaps and GRN schematics.  
+### spatial
+Notebooks used for analyzing Stereoseq and Visium spatial transcriptomics datasets
+### table
+Notebook used to construct link-peak table shown in Supplementary Table 2
 
 
 
