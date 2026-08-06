@@ -10,8 +10,7 @@ Explore the dataset interactively or download the H5 object directly using our C
 
 Count matrix data has been submitted to Dryad, and is accessible via this link: https://doi.org/10.5061/dryad.7m0cfxq8t 
 
-FASTQ files have been deposited to the Karolinska Institute Data Repository via the DORIS system from the Swedish National Data Service (SND): https://doi.org/10.48723/pq77-v833b 
-
+All raw FASTQ files have been deposited to the European Genome-Phenome Archive (EGA) and are available upon request from the following accession number EGAS50000002001 (https://ega-archive.org/studies/EGAS50000002001).
 
 
 ## Description of values in the cell-metadata in the H5 file
